@@ -1,0 +1,1371 @@
+ Pipeline stages
+
+ Build with Parameters ? Dev / QA / Prod
+
+>Sonar qube stage- what you will write ? 
+
+
+
+take any stage - what is exact command to keep in the stage 
+
+
+
+> how do you run sonarqube for java code ?
+
+
+
+> how to integration with Tomcat to Jenkins
+
+
+
+> ssh connection ? how can we setup in b/w two machines?
+
+
+
+> write a docker file ?
+
+ 
+
+ entry poitn vs cmd ? differenct ? use case ? syntac ?
+
+ 
+
+> Kubernetes
+
+  engress 
+  > can we make a pod availabe without engress  in kubernets ?
+
+
+
+> have you worked with any monitoring tools ? Dynatrace, how doees dynamtrace get the matrics from the servers? Grafana ?
+
+
+
+> git works ? braching strategy ?
+
+
+
+>how do you check teh logs of running script shell ? for any useful command to get this logs in side teh script ?
+
+> what exactly env setup ? parameter with build in pipeline jenkins
+
+
+
+> disk utalization and du with sorting command ? du -sh --* | sort -n
+
+
+
+> git strategy in the DevOps ?
+
+
+
+> have you worked on Nginx ? end to end
+
+
+
+> automation in the ansible ?
+
+
+
+> Master and Slave in Jenkins
+
+
+
+> where do you host your application ? standaline application and dockera application 
+
+
+
+> Docker images can store in local ?
+
+ans:/var/lib/docker/
+
+
+
+> Where do we stored? Iamges docker ? var/lib/docker/
+
+ POD autoscalling in Kuberberes
+
+
+
+> service is running on kubernets , how can we hit the link ?
+
+
+
+> list the container list ?
+
+
+
+> how to delete the stopped containers with single command ?
+
+
+
+Pipeline end to end CI/CD 
+
+
+
+> purpose of nexus repositoy ? any use cases in the existing project
+
+> what is the sonar cube
+
+> how you are using jenkins ?
+
+> directly you are keep in the target path / target server ? directly to push to jar file ? how you will be run the jar file in the server ? how it can reflect in the target path. service ?
+
+> how do we achieve the docker deployment - dockerfile ?
+
+> image vs container
+
+> what is the wat to extract teh file from container ? back up the file from container ?
+
+> /host /host in nodes, both these have diffect files but name is same. any merge happen in the docker container ?
+
+> mounting in container ? container is up and running.? separate command to get the file from container directly wiht help of single command ?
+
+> docker command , without going to be the path to get the file form continaer, direct command to get the file
+
+> do you exposer on kubernetes
+
+> what is the docker swarm ? mutliple host to manange
+
+> how you are manageing containers whether you manage single node or multple nodes ?
+
+> Ansible confi tool, what is the pipeline that you use for ansible ?
+
+> Git hub > whole flow? you are following
+
+> Jenkins pipeline - stages
+
+> if you watn to achieve ther is some services are running,but need to update, no need to effect to any users and prod. how you will achieve in zero down time deployment?
+
+> monitoring tool - aws cloud watch ? graphana
+
+> AWS has inbuild to config the all server fetch the details 
+
+> How you use the ansible in the devOPs purpose ? currently how you are using ? where you use
+
+> suppost if i launch 3 servers in pvt sub, how can we connect VMs from my laptop ?
+
+> if we attached pub ip to the server, 
+
+> have you worked on load balancer ? I am running machine 8080 on service, my domain is www.analyhtica.com, how can we target to that 8080 ?
+
+> ELB and Application diffetrence
+
+> 
+ have you worked on Docker and Kubernetes
+
+
+
+::::GIT::::
+
+> github vs gitbucker
+
+> git reset --hard ---> why do you use this command ? delete the branche
+
+> how to see last commit in git ( recent commint in git  git log command
+
+> ther is two commnad - git fetch vs git sync ? 
+
+
+
+:::::Jenkins:::::
+
+> What are the types of Pipeline jobs 
+
+      other pipelines jobs ?
+
+> Which Jenkin pipilines jobs you used ? else Freestyle 
+
+> what will be structure of #jenkinsfile ? 
+
+> Starting what are the things will be htere in Jenkinsfile, for high level steps 
+
+> Jenkinsfile - we will go for use fo pipeline / node ? /agent any
+
+> we need to build the docker images? and push to nexus repository ? how we can achieve from pipeline job of jenkins? 
+https://www.coachdevops.com/2021/02/automate-docker-builds-using-jenkins.html
+
+> maven java project building commands ?
+
+> Ansible / Terrafarm ?
+
+> We need to setup one env 0n GCP , AWS,  is it possible from Ansible ? Terrafarm ?
+
+> Oracle installation ?
+
+
+
+:::::::Docker::::::::
+
+> can you name the docker tools ? docker having multple tools - docker compose and docker swarm
+
+> why do we go for docker compose ?
+
+> do you know how to scan the image of docker ? make sure it should no issue with vernabilities ,on top of images layer it can happen ?
+
+
+
+> Configmap in Kubernetes? - controller
+
+> ingress controller  
+
+
+
+configmap vs secret
+
+> Node connections ? what is the mechanism in the back side
+
+> Docker Concepts , Virtualization vs Container
+
+> Jenkins - types of jobs
+
+> what is the invertory files
+
+> What is devOps. how can we achive our plans with it 
+
+> how to run a playbook, how its works ? why we go with Docker-compose
+
+> what is the concept of Docker-compose
+
+> sonarqube intergration with Jenkins?
+
+
+
+> Have you intergration with Maven with Jenkins?
+
+
+
+> Jenkins Master and Slave setup
+
+
+
+> Classic vs n/w ELB
+
+
+
+> Rebase vs Merge
+
+
+
+> Docker File indetails ?
+
+
+
+> Ansible Automation use cases 
+
+
+
+> How to debug the console output erros of job in Jenkins 
+
+
+
+> Pipeline Stages
+
+
+
+> how you are going to do testing on code - Selinium and Junit
+
+j
+> what kind of POC you did in Kubernetes
+
+> Docker vs Kubernetes
+
+> what is the layers ?
+
+> how do you check the docker containr logs ?
+
+ans:docker logs container id 
+
+> what are the common issues that you faced in Docker ?
+
+> How many evn you have for your application ?
+
+> Why do you have QA env and Dev Env  ?? Explain ?
+
+> stages name in pipeline ?
+
+how can you connect Master and Slave
+
+  how do you mention IP in the master / DNS required mandatory ? in which file 
+
+  how connection is estalbished master to slave
+
+  IPs and hostname should be mentions ?
+
+> Is there any other way to talk to Nodes from Master ?
+
+  what is the ad-hoc method?
+
+> once we created users in the master, the same user need to be create in the slaves ?
+
+
+
+  
+
+> What is the role ?how can you difiened.
+
+
+
+> how can you dicided the OS type in the playbooks redhat and windows  #Facts
+
+
+
+> What is the jinga template ?  
+
+
+
+> can you create a role  or is there are available on internet ? can we modify the roles according to our requirments
+
+
+
+> what is the use of handlers ?
+
+
+
+> Scenios that used for Ansible in the currect organization ?
+
+
+::::::::::Jenkins::::::::::
+
+
+
+> how are you going to run jobs, shall we give build number of other job in build with parameter of new job while executing ?
+
+
+
+> Master and Slave concept explain  and How to share load of work to slave?
+
+
+
+> Where can we see all keys and credentials stored in the Jenkins ?
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
+::::::::Docker:::::::::::;
+
+
+
+> Docker high availabity ??
+
+> EKS Kubernet in AWS ?
+
+
+
+-----------------------------
+
+> Docker deployment model ? then jump into Kubernetes 
+
+> Dockerfile instruction 
+
+CMD vs Entrypoint
+
+>CMD vs Run
+
+> what happen if alrady container exists, again onthe same you are create new container ?
+
+> where you hosted kubernetes cluster ?
+
+> where you hosted your docker images,container, ECR, where are you running docker running ? in AWS ec2 ? 
+
+> EC2 vs ECR ? what you think ?
+
+> NAT GAteway vs Nat instance ?
+
+> 3 tier architecture- where do you keep your nat gateway ? how do you setup ? 
+
+> in which subnet , we are hosted in DB? 
+
+> while configure rds, where you defined subnet group and traffic ?
+
+
+> Deployment types in Kubernetes 
+
+> Manifesto   spec and kind - means in the manifesto
+
+> name spaces in Kubernetes
+
+> docker contianer using images
+
+> merger vs rebase 
+
+> git pull vs push 
+
+> svn vs git
+
+> cherry pic git and stats git
+
+ebhooks mechanism completly - git to Jenknis
+
+
+
+setting.xml - where we can see all build config deaails - build defendenis 
+
+
+
+> artifacts repository - s3 and nexus 
+
+
+
+> ci / cd - descriptive - pipeline
+
+
+
+main 3 stages - 1.build 2.test 3.deploy
+
+
+
+> code if unknow - cp generatore we can get 
+
+
+
+> Paramers in jenkins 
+
+
+
+> plugins installtion ?  how do you knwo the path where installed pluginsn - passowrd saved under the global configuation 
+
+
+
+
+
+> Ansible : Playbook - two type of os - when os-release=rhel
+
+
+
+ Playbook section::  1.target
+
+                     2.variable 
+
+					 3.task
+
+					 4. hadlers
+
+					 
+
+					 task vs hadlesr difference
+
+Ansible tower vs Galaxy
+
+
+
+roles in Ansible - differectn tager directory strucutre 
+
+
+
+ansible vs chef 
+
+
+
+how to use port in docker ad hoc command ---> -p 8080:9000 host:container
+
+> docker communication n/w how ?
+docker have default bridge network 
+
+ Jenksni cicd job fails : debugs steps
+
+
+
+1.console out
+
+2.Jenkins - workspace - supoorted html files. we can go all files , will find error.
+
+>
+ GIT fetch vs pull vs clone ?
+
+
+
+> maven build  -life  cycle 
+
+
+
+> jar/war can decide in the maven ?
+
+
+
+> Pipeline stages
+
+
+
+>java -jar javr.war --https:8080
+
+
+
+> how do we redirect the requests in the server ?
+
+
+
+> apache server ?
+
+
+
+> sso authenthicatino >
+
+> what is list in python?
+
+> generator and Decorators ?
+
+> $? what is the represent in shell ?
+
+> JSON - YAML 
+
+> split and join method in python
+
+> Docker do yo know ?
+
+CI CD process complete
+
+
+
+Jenkins job trigger types - Free style and Pipeline Difference
+
+
+
+how can we convert free style jobs to Pipeline? what is the plugin to use?
+
+
+
+Maven Cycles and .m2 folder ? What is POM.xml ? explain the work flow ? stages that we used to follow ? Maven properties ? mvv commands ? how can we decided to get a jar / war file ?
+
+
+
+Maven local, central, remote repository  ? explain ?
+
+
+
+how to do unit test before maven start building the code?
+
+
+
+git strategy that you follow in the existing organization?
+
+
+
+git pull , git push,, git fetch  difference ?
+
+
+
+Pipeline stages that you used to follow ? git maven sonarqube s3 bucket tomcat email notification
+
+
+
+write a code for pipeline ?
+
+
+
+diffence b/w scripted pipeline and declarative pipeline
+
+
+
+Continuous Integration and Deploymnet and Delivery Difference ?
+
+
+
+for Delpoymet how and what procedure that you follow ? did you use for ansible / Docker for delpoymemnt ?
+
+
+
+write a dockerfile for tomcat application ?
+
+
+
+docker file instruction ? explain indetails ? from,run.expose,mkdir,maintainer,cmd,enterypoint
+
+
+
+Container Vs Virtualization more depth ?
+
+
+
+How docker workks ?
+
+
+how to get the all the process running in the container ?
+
+docker top container id
+
+
+
+how to see all containers cpu, memory, and other stuff?
+
+
+
+Docker instruction - COPY vs ADD
+
+                     CMD Vs Entrypoint
+
+
+
+Ansible architecure ?
+
+
+
+how it can connect to node to node ?
+
+
+
+playbook for to run 
+
+
+
+how to run a script file in all nodes ?
+
+
+
+Route 53 explain ? how can we use
+
+
+
+AWS code pipeline , deploy, build, commit diffence ? how can you use ?
+
+> Declarative vs Groovy Pipeline
+
+
+
+> Build with Parameter ? how to automating 
+
+
+
+> Ansible works in CI CD realtime ? usages  DevOps prospective 
+
+
+
+> Can you use Ansible as Deployement in the CI/CD pipeline ?
+
+
+
+> how to run the both stages with samultanious ? paraller we can run both stages in cicd ? is it possible ? sonarqube and junit both should do at onces both stages
+
+
+
+> Master and Agent configuration ? why it need ? how can we troubleshoot if in case of getting any issues ?
+
+
+
+> how can we pass job into the slave node ?
+
+
+
+> Git - webhook enabling ?
+
+
+
+> Multi braching pipeline in jenkins ? how it worsk with respective to Git
+
+
+
+> Gif conficts ? how can we resolve once we get this ?
+
+
+
+> Sonarqube - setup ? sonarqube scanner ? dash board explaine ? code bug , code smell, in depth ?
+
+
+
+> Sonar scanner
+
+
+
+> Docker explain - 
+
+
+
+> how to build the docker images ?
+
+
+
+> add vs copy instruction in dokcerfile and syntact explain
+
+
+
+> docker networks - setup - overlay networks
+
+
+
+> VPC explaine 
+
+
+
+> Direct Connet Vs Peering vs Trasist Gateway
+
+
+
+> Pub S/n vs Pvt S/b - IGW - 
+
+
+
+> NAT Gateway
+
+
+
+> What is the load balancer ? did you configure load balancer - 
+
+
+
+> how do you setup infra - front end and back end and middleware - network design  - communication establish
+
+
+
+> DB Engine experience ?
+
+
+
+> Shell scripting ?
+
+
+
+> Images vs Container 
+
+> Dockerfile 
+
+> how do you use the help of docker file in pipeline cicd ?
+
+> S3 cross region replication ?
+
+> with out AWS console , how can we provision infra, - CLI, Boto3 Python, etc.
+
+> how do you do prodution release ?
+
+- how do you check last 5 commit in git ? #git log -n 10
+
+- Ansible Architecture explain 
+
+- what is difference vs playbook vs ad-hoc
+
+- what is ansible galaxy ? use ?
+
+- what are core module in ansible ? 
+
+- how would you copy a jenkins to one instance to another instance ? 
+
+- what is build periodically in jenkins ?  Builds Periodically triggers builds as per the schedule (every 10 minutes) even if you haven't changed anything
+
+- what is Poll SCM vs WebHooks Vs GITHooks
+Poll SCM will check for changes before triggering any build, if there are changes to the previous version there only build will be triggered
+- Docker entrypoint ?
+
+- Docker entrypoint vs CMD ? in dockerfile ? reason behind to know why it has one time to give as entrypoint only, why not many times
+
+- Docker Swarm ?
+
+- Docker Networkd Elements ? Types ? explain ? 
+
+- How do you check the existing docker containers list ?
+docker ps -a 
+- Kubernetes Architecture Explain 
+
+- Kubectl vs KubeAdm
+
+> what do you do in the projects 
+
+> no jenkins, how to do manual of CI process to deployment ?
+
+> Application server tomcat , nginx , apache web servers 
+
+ 400 errr what could be the reason on the application ?
+
+
+
+
+
+
+
+> can we check the logs in container ? path will residing logs ?
+
+
+
+> list of stop containers 
+
+
+
+> RDS - mysql, arora - you execute query, tables , strucute ?
+
+
+
+>how can we mount a volume to ec2 instance ?
+
+
+
+> do you used the monitoring tool - dynatraces, grafana 
+
+
+
+>> GIT 
+
+> how you can merge two branches 
+
+> how do you roll back the merge once it done ? revert back the merge 
+
+> how can we do the revert the merge
+
+> branch strategy ?
+
+> Docker Container vs Virtualization 
+
+> if we wnat to trouble shoot on the container , how can we do ?
+
+> if want to go the contiane ? commnad to login into the container
+
+> CI CD with help of shell scriptin ?
+
+> Cloud Formation vs Terraform 
+
+> do you use yaml or json in cloud formation. do you think that JSON is work out in this area ?
+
+> YAML vs JSON - indentation problem in JSON
+
+> if you launch a instance , how you write a YAML file ?
+
+> types of ebs volumes 0 storage types in AWS
+
+> kubernetes vs Docker
+
+> how do you create a docker container ?
+
+> two types of version controll systems - decentrailze and centralized
+
+> Git conflicts happen - git merge - conflicts 
+
+> I have a web application in mumbai it shuild be more availabel - what should you do for highly availabel ? 
+
+> Jenkins related 3rd party application - sonar cube intergration and intergration with Jenkins
+
+> What mechanism is involved in teh jenkins to sonar cube 
+
+> Quality of code how do you pass conditions to Sonar? Quality gate
+
+> How do you administates the sonarqube
+
+> Nexus ? setup and configuration 
+
+> S3 vs Nexus Differences
+
+> how to secure the jenkins instance ?
+
+https://www.studytonight.com/jenkins/securing-jenkins
+
+
+
+> what type of jobs you genereally created ?
+
+> Declarative vs Scripted Pipeline jobs
+
+> in pipeline we have given 
+
+                 node:none
+
+				 node:anynode    (difference )
+
+> Master and slave configuration setup and ssh connection and label
+
+> JLNP term in master ? when you connected from master to node via jlnp mechanism
+
+Docker files
+
+
+
+Difference b/w EFS and EBS,can we attached sinble EBS volume to multiple VMs?
+
+
+
+
+
+Docker volume usages, how to use, how it works on Container
+
+
+
+Can we create container on top of container ? if yes, how ?
+
+
+
+Kubernetes Deployments and Services
+
+
+
+what is kubectl, what is the architecture , how it can works
+
+
+
+master and slave node setup of kubernetes - 
+
+
+
+are you using nexus repository ? for what ? you are storing dockerfiles in that ? any other stuff
+
+
+
+did you exposure on nexus configuration or just use it for uploading and downloading ?
+
+
+
+did you exposure on Node Js.
+
+
+
+how Autoscaling works? scale up ? scale down?
+
+
+
+Kubernates autoscaling ??
+
+> Jenkins : how do we integrate with AD ? Active Directory ?
+
+
+
+> Jenkis roles and responsibles ?
+
+
+
+> are you using for any script for in the pipeline making automating  ?
+
+
+
+> how you delete old buids in the jenkins ? steps to follow - automate 
+
+
+
+> how to glocal configureation vs plugins 
+
+
+
+> GIT : Jenkins integration with POLL SCM - vs WebHooks
+
+
+
+> Your Jenkins is internet / intranet connection ? which method you used to follow ? why internet ?
+
+ Telnet happening : Database conncetions
+
+
+
+> Apache Server : configution : writing code and how to clone the code ? 
+
+
+
+> Tomcat server : configuration
+
+
+
+> what is the imp file in the Nginx Server?  how to change the port number ?
+
+
+
+> GIT
+
+  how to change the braching into other branching 
+  
+  > Please tell me how DevOPs differ from Agile Process ?
+
+
+
+> DevOps Tools ?
+> Ansible modules, any one. how can you user
+
+> What is the inventory ,use
+
+> Jekins Pipeline stages
+
+> Docker - CMD and EntryPoint difference  
+
+> Facts modules ?
+
+> Default path home for Jenkins
+
+> Port forwding in Docker container ?
+
+> how to take back of Docker container goes terminated. with help of Docker volume concept.?
+
+> how to create a new n/w in docker? how to changet the n/w mode in docker?
+
+> Few Plugins names in Jenkins
+
+> Sonarcube port number 9000
+
+> GIT Strategy in your organization?
+
+
+ Let say node project - is going to be implemetn - project description is delivered by Project manager
+
+   one Architect. One DevOPs.  - DevOPs guy can would guide them to be follow the 1st step
+
+   
+
+   1. github respository ready to give access to all developers (DevOps guy is the resposibiltiy to give git hub repo to developers ?
+
+   2. how to give env to work on Developers (ec2 instances ) 
+
+   3. how pull request ? git push - it goes to master. how can you block it ? 
+
+   
+
+        we will go for braching protection ?
+
+	4. small peice of code is ready , we have reviewd the code, then we can do #merge, what should be in the next step. Its already in the github repo. what is the next step you will do --- we can clone code , will start the compiling and building jar/ war file from that
+
+	
+
+	5. how will github connected to jenkins ? - webhooks --- 
+
+	
+
+	6. merge is blocked. how will you write unit test ? sonar cube does the analysis 
+
+	
+
+   7. In the branch - set a rule in sonar cube - quality gate - we can define ?
+
+   
+
+   8. Maven - parameters - clean install packege ?
+
+   
+
+   9. how do you writing a jenkinsfile. since it is new project. where will place teh jenkinsfiel - github repositogiry.
+
+   10. how will be the safe for jenkinsfile in github repositogiry - we can create new branch, we can keep in that area only. then the branh will be lock, no body can touch
+
+   
+
+   11. code promoted to some repository - take ex - nexus. we have uploaded. we want to preserve for one week. we have 8 developer, they will do checkin all developers. what can we do now. how do you versioning that. 
+
+   
+
+   12. what is devops ? easist way define from you.
+
+   
+
+   13. now we have a pipeline - the pull reqeust, the guys manageing - they can do ?? artifacts can donwload its dig from Jenkins workspace ?
+
+   
+
+   14. we alwasy keep jenkins workspace should be emply , clean , delete .then do new job.
+
+   
+
+   14. my code is running in my env developer says. but you said it not syncs to build ..how would you solve the problem.
+
+   
+
+      console out - it will give sense. else they are using any differecnt java version , in jenkins may be hacing different java version . like that issues will comes.
+
+	  
+> what are the modules you used : copy , file, yum, apt, when, command.
+
+> playbook creation
+
+> syntax for COPY module - Scenario - you want to take a backup of a file from playbook --- source and destination 
+
+> what are the places we can give hosts, how can we give ? what is path for inventroy ? 
+
+> ansible multiple places we can set environment variable , where ? how ?
+	
+	> Why do use for maven, CI part, why only maven, can't be do in Jenkins? 
+
+> GIT strategy 
+
+> CongMng tool - ansible - how do you setup in the devops, roles in the Ansible. master - slave setup
+
+> Nagios Monitoring. how you use for in your org. what is the purpose, you have aws cloud watch is there why can't to go far?
+
+> Deployemnet - dockerize deployemt how you are going to do ? on containeraztion 
+
+> Pipeline scripts CI/CD part ? TE Connectivity 
+
+> how docker works ? 
+
+> VM vs Containerzation
+
+> In a average of Instacnes, how to do you move to data to other server ? possibilites ? if keys are lost ppk and pem.
+
+> Have you use redis ? cache purpose? Mysql
+
+CD / CD tools 
+
+
+
+> git flow ? 
+
+> Git checkout
+
+> git inition 
+
+> both are working on the same brach, we commited something, how can we get the logs on the same commit ?
+
+>
+
+
+
+> pipeline for every merge request ?
+
+
+
+> sonarqube configuration 
+
+
+
+> Container 
+
+
+
+> Docker composer
+
+
+
+docker file
+
+
+
+> Automatic deploy into the kubernets 
+
+
+> how to install Jenkins server ?
+
+> how to do automation in your env ?
+
+> what are the modules you worked so far ?
+
+> diff b/w playbook vs role ?
+
+> how to donwload role and make it happen ?
+
+> how to provide inventroy / host to play book ?
+
+> how do you create a  playbook ?
+
+> dynamic invertory vs static invetory
+
+> how to give a permissions to the file by using playbook ?
+
+> What kind of work you have done in the ansible ?
+
+
+
+> What are the tools that you are following in DevOps
+
+
+
+> Tell me recent projects where you have served and roles and responsibles
+
+
+
+> Git Branching Stratergy that you followed in your org
+
+
+
+> Before moving to production how can you merge a code in the strategy GIT branching ?
+
+
+
+> What is nexus repository ? how you are saving artifacts ? tell me the one use case ?
+
+
+
+> Any automation you done for any thing so far. please explaine in detail ? Script files
+
+How can we give visible access on Objects in one bucker with respective few user only but should not be modified. how can we enable polocies?
+
+> Autscaling - you have database, java application, how are you going to do for highly available.  what is the lauch configuration ? 
+
+> What is the configuration group in autoscaling
+
+> As devops eng, you used to deploy into application, how can you do ? Jenkins and any other tool you are using ?
+
+> Ansible playbook ? any books that your are written, ?
+
+> while installing packages in you have to use root, but how in the playbook you mentioned in all the nodes ?
+
+> In Ansible where you secured the credentials key, sudo, passowrds, - Anible vaults 
+
+>
+
+> what is the starting of the CI, end product from CI ?
+
+> if sonar qube fails, how can it will be go for next stage ? how you pass quality gate checks in the sonarqube ?
+
+> how you are going to save your secrets and password in the pipeline ? if you have s3 buckets, any nexus repostiry , how can we save this secrests ? ##Git Secret
+
+> GIT Secret ?
+
+> Git work flow ? vs Project Work vs Branching Strategy 
+
+> What is directory tree under  .git folder ?
+
+> docker ? how we can deploy with help of Docker ? with help of dockerfile?
+
+> how you are 
+
+> if you are end prodcut is war file, how you deploy into tomcat application ?
+
+> how to copy a file into the container  inside ? not through volume ?
+
+> how to run a image docker ? with help we can build image or container ?
+
+> for building image command ?
+
+> docker build vs run ?
+
+> add vs copy in the docker file
+
+> with out volume, how can we copy the files from host to container ?
+
+> voluume vs workdir in docker ?
+
+> how can we decide in the volume - belogns to which continer data ?
+
+> workdir above copy and below copy in the file of dockerfile, what is the difference ?
+
+> Kubernetews Archtecture ?
+
+> kubeadm ? can not setup production with kubeadm
+
+> kubelt? kube adm ?
+
+> Pod creation in kubernetes ? 
+
+> how to use ansible on this pipeline ci/cd ?
+
+ C intergration ,delivery , deployment  differances   
+
+> restart vs safe restart in jenkins 
+
+> Explain your company Jenkins jobs and pipelines
+
+> Docker Engine vs docker client works ?
+
+> What is the tomcat application ?
+
+> what are the module you used in the playbook ? became , copy, commnad, role
+
+> role in ansible ? 
+
+> Docker images saving where
+
+> Have you written any #dockerfile and #manifesto files in Kubernetes
+
+> How you setup the KubernetesCluster ?
+
+> How are you good at the CICD process. steps and stages 
+
+> setup of SonarQube installation and integration with Jenkins?
+
+> Poll SCM vs Webhooks
+
+> how are you triggering job alerts in Jenkins ?
+
+> how to setup the webhooks in github and jenkins also ?
+
+> paramets in JenkinsFile?
+
+> job get fail in jenkins, troubleshooting methods ?
+
+     how to dicided to developer issues ?
+
+	 
+
+> Jenkins Master can not able to assign to nodes ? we got in the console output. ? how can we troubleshoot?
+
+  My node is up and runngin, but still the job is not sharing to node by master.
+
+  
+   > Have you setup a jenkins ? have you run a jobs ?
+
+> If there is change a module in the developmnet , what is the process that you process in jenkin s? how do you know the module has change ?
+
+> Errors in Maven, how can you revert back to Developers as mentions code errors? based on console output
+
+> During Deployement the war / . what do you do? if authenticat is not working ? how to do make auto authenticate on the deployment ?
+
+> In Jenkins, we have job for one application, similar job need to be create for another application , what steps you follow ?
+
+> What are teh benifts of Jenkins ?
+
+
+
+> Git Hub usages ? properties ?
+
+> Git command  - #git rebase --hard ? 
+
+> How to see that recent last commit in the git ?
+
+> how to see logs in the git ?
+
+> git syncs vs git fetch diffence - suppose if you are writing sycs, compare with Fetch
+
+
+
+::::Jenkins::::: 6/10 rating
+
+> what are pipelines jobs in the jenkins
+
+> which jobs basically you preferable to go with ? freestyle or pipelines
+
+> what will be the syntacs for Jenkins file? - scripted and declarative
+
+> what are the things will be there in the jenkins file?
+
+> Jenkis which one we can use - pipeline or node ?
+
+> We have to build the docker images, whar are the things are required from Jenkins job. we have push to the private repository in nexus ?
+
+> whar are configuration required for this docker images to pushing to nexus  on Jenkins server ?
+
+> command for build the maven project?
+
+> Ansible / Terroform -  is this possible to env setup on the cloud by using ansible ?? anything cloud - GCP, Azure and AWS ?
+
+> Oracle installtion 
+
+> what is mail tool in docker ? - docker compose ? what is the docker composer
+
+> we can achieve from everything from dockerfile, why do we go for docker composer?
+
+> how to scan the images in Docker ? should not be any vulnarabilties, code isses ? for security threats. 
+
+
+
+
+
+-----------------Kubernetes-----------------
+
+> ConfigMap (controller) ??
+
+> Ingress controller in Kubernets
+
+> API Gateway creating, which tool that use for 
+
+ What is the branching strategy that you are following 
+
+> Jenkins - have you created  pipeline - different stages and elaborated
+
+> What is the label concept ? can we the same label to other names ? what is the purpose of using label, we can give samle label names to other nodes also
+
+> Docker file for tomcat application ?
+
+> how to find the docker container has stopped. ? logs ? how do you know stopped or running ? 
+
+> Docker network part ? what are the different kind of n/w ? bridge , host, none .
+
+> How can we lunch application - with exposer to outside without pub subnet. webservers, database are in the backend. application should be access to outside 
+
+> Have you worked in S3 - total call used in the s3 bucket - you will be trasfering happen. which protocal which been involving ?
+
+> 2 buckets -  1st - read access on that 
+
+               2nd  - read write access on that 
+
+			   
+
+			   how it is possible to enable. ?
+
+			   
+
+> Kubernetes 
+
+> Jenkins pipeline got failed. what are methods to debug > ways to approch to resolve the issue.
+
+> monitoring tools ? AWS cloud watch ?
+
+>
